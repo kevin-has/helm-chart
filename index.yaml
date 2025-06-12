@@ -3,12 +3,22 @@ entries:
   app-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-12T14:41:20.593423+08:00"
+    created: "2025-06-12T15:07:02.142749+08:00"
     description: A Helm chart for Kubernetes
-    digest: 9023d5a8dfdb4b28bf8ed747d7b2da56a53c4109125b29ceac6c3eb702451acc
+    digest: dbbefdb8adbc1f801faef6c42123bd8cba1add3e5f2b364d0dd0daea60e877ae
+    name: app-chart
+    type: application
+    urls:
+    - https://kevin-has.github.io/helm-chart/app-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-12T15:07:02.142476+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 788c97c29f7e1caa658aba79b05ad32f0d10a88fccc74bbac368d693cbf37f55
     name: app-chart
     type: application
     urls:
     - https://kevin-has.github.io/helm-chart/app-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-12T14:41:20.592881+08:00"
+generated: "2025-06-12T15:07:02.141689+08:00"
