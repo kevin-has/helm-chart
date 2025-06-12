@@ -45,7 +45,7 @@ spec:
               path: /liveness
               port: {{ .Values.containerPort }}
             initialDelaySeconds: 60
-            periodSeconds: 10
+            periodSeconds: 20
             timeoutSeconds: 5
             failureThreshold: 5
           readinessProbe:
@@ -53,7 +53,7 @@ spec:
               path: /readiness
               port: {{ .Values.containerPort }}
             initialDelaySeconds: 60
-            periodSeconds: 10
+            periodSeconds: 20
             timeoutSeconds: 5
             failureThreshold: 5
           resources:
